@@ -1,0 +1,115 @@
+.cuerpotres{
+background-image: url("../src/IMAGENES/nav.jpg");
+ background-size: cover;
+  background-position: center; 
+  height: 100vh;
+
+
+}
+.zonaoscuratres{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  height: 90%; 
+  background-color: rgba(0, 0, 0, 0.438); 
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+.form{
+display: block;
+width: 500px;
+height: 35px;
+border: solid rgba(85, 82, 82, 0.144) 2px;
+border-radius: 5px;
+margin-right: 50px;
+
+}
+
+.actualizar{
+margin: 20px;
+
+}
+
+.agregar{
+margin: 20px;}
+
+.contForm{
+display:flex;
+flex-wrap: wrap;
+margin-left:  150px;
+
+}
+
+.tituloDosform{
+font-family: "Playfair Display", serif;
+color: aliceblue;
+display: flex;
+justify-content: center;
+text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.863);
+margin-top: 50px;
+}
+
+#tf{
+font-family: "Playfair Display", serif;
+color: rgb(100, 99, 96);
+text-align: center;
+margin: 30px;
+ text-decoration: underline;
+
+}
+.Eliminar, .Actualizar, .Agregar{
+ text-decoration: none;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ padding-left: 6px;
+ padding-right: 6px;
+ border: solid black 2px;
+ color: black;
+ margin: 5px;
+background-color:rgba(190, 188, 188, 0.459);
+}
+
+.Eliminar:hover{
+ background-color: rgba(226, 49, 49, 0.726);
+}
+
+
+
+.Actualizar:hover{
+ background-color: rgba(127, 130, 131, 0.726);
+}
+
+.Agregar:hover{
+ background-color: rgba(17, 75, 6, 0.623);
+}
+
+
+.contFormBuscar{
+display:flex;
+justify-content: center;
+margin-left: 160px;
+
+
+}
+
+
+#bh{
+font-family: "Playfair Display", serif;
+font-size: 20px;
+color: rgb(100, 99, 96);
+text-align:center;
+margin-top: 30px;
+
+}
+
+.cat{
+display: flex;
+text-align: center;
+
+}
+
+.buscar{
+margin: 22px;}

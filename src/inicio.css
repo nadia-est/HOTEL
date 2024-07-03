@@ -1,0 +1,432 @@
+.cuerpo{
+
+background-image: url("./IMAGENES/hotel1.jpg");
+width: 100%;
+height: 100vh;
+
+
+}
+
+
+.NavArriba{
+background-color: #d1d1d121;
+}
+
+.arriba{
+display:flex;
+justify-content: center;
+
+
+
+}
+
+.nav-item{
+ margin-right: 50px;
+
+}
+
+.inicio{
+margin-right: 50px;
+
+}
+
+.linea{
+display: flex;
+justify-content: center;
+}
+
+.lineaArriba{
+  width: 90%; 
+  margin-top: 10px;
+  color: rgb(255, 242, 242);
+  position: relative;
+  z-index: 2;
+  
+
+}
+
+.btn{
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: rgba(80, 80, 105, 0.336);
+position: relative;
+z-index: 2;
+margin-top: 68px;
+
+
+}
+
+.textobtn{
+color: aliceblue;
+}
+
+.btn:hover{
+background-color:rgba(126, 126, 128, 0.658) ;
+
+
+}
+.iconoArriba{
+width: 30px;
+height: auto;
+margin-right: 8px;
+
+}
+
+
+.boton{display: flex;
+justify-content:flex-end;
+margin-right: 105px;
+
+}
+
+.titulos{
+position: relative;
+z-index: 2;}
+
+
+.habitaciones,.servicios,.nosotros,.contactanos,.inicio{
+font-size: 20px;
+}
+
+
+.tituloUno,.tituloDos,.tituloTres,.habitaciones,.servicios,.nosotros,.contactanos,.inicio{
+font-family: "Playfair Display", serif;
+color: aliceblue;
+display: flex;
+justify-content: center;
+text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.863);
+}
+
+
+.tituloUno{
+font-size: 60px;
+margin-top: 90px;
+
+}
+
+.tituloDos{
+
+
+font-size: 35px;
+margin-top: 20px;
+}
+
+.tituloTres{
+
+margin-top: 20px;
+font-size: 25px;
+}
+
+.btnReserva{
+position: relative;
+color: rgba(0, 0, 0, 0.685);
+background-color: rgba(58, 58, 58, 0);
+border: solid 2px;
+font-size: 20px;
+z-index: 2;
+margin-top: 70px;
+
+}
+.btnReserva:hover{
+background-color: rgba(240, 248, 255, 0.623);
+color:  rgba(0, 0, 0, 0.685);;
+
+}
+.zonaoscura{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; 
+  height: 90%; 
+  background-color: rgba(0, 0, 0, 0.438); 
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+.zona-oscura{
+position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 11%; 
+  height: 8%; 
+  background-color: rgba(177, 173, 173, 0.404);
+  backdrop-filter: blur(1px); 
+  border-radius: 10%; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  z-index: 0;
+}
+
+.reserva{
+display:flex;
+justify-content: center;
+margin-top: 190px;
+
+}
+
+
+.sc,.sgym,.sp{
+display:flex;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+
+
+}
+.imgComida{
+box-sizing: border-box;
+margin-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+width: 900px;
+height: 500px;
+}
+
+.carousel{
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.699);
+margin-top: 50px; 
+}
+
+.serviciosComida{
+box-sizing: border-box;
+margin-top: 50px;
+padding: 50px;
+}
+
+
+.servicioGym{
+box-sizing: border-box;
+margin-top: 50px;
+
+
+}
+
+.imgGym{
+box-sizing: border-box;
+margin-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+width: 900px;
+height: 500px;
+
+
+}
+
+
+.imgPileta{
+box-sizing: border-box;
+margin-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+width: 900px;
+height: 500px;
+
+}
+
+.servicioPile{
+box-sizing: border-box;
+padding: 50px;
+}
+
+.tituloServicio{
+  font-family: "Fjalla One", sans-serif;
+  font-size: 42px;
+  color: rgba(247, 149, 2, 0.911);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.parrafoServicio{
+ font-family: "Karla", sans-serif;
+ font-size: 22px;
+}
+
+.serviciosOpciones{
+ font-family: "Karla", sans-serif;
+ font-size: 20px;
+}
+
+.amenidades{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: rgba(149, 225, 255, 0.26);
+margin-top: -16px;
+}
+
+.accesorios,.bebes,.tele,.internet,.pet,.lavar,.bebes{
+margin: 30px;
+
+
+
+}
+
+.mascotas,.wifi,.lavanderia,.television,.shampo,.cuna{
+display: flex;
+
+}
+
+
+.imgperro,.imgwifi,.imglavanderia,.imgtele,.imgshampo,.imgcuna{
+margin-top:5px ;
+width: 66px;
+height: 66px;
+align-items: flex-start;
+
+}
+.imgshampo,.imgtele{
+margin-top:12px;
+width: 75px;
+height: 75px;
+}
+
+#tituloAme{
+font-size: 20px;
+font-style: initial;
+font-family:Georgia, 'Times New Roman', Times, serif;
+padding-left: 10px;
+align-items: flex-start;
+
+
+}
+#pAmenidades{
+padding-left: 10px;
+margin-top: -10px;
+}
+
+.contenedorMascotas,.contenedorWifi,.contenedorLava,.contenedorTele,.contenedorShampo,.contenedorCuna{
+max-width:600px;
+
+}
+
+.tituloAmenidades{
+display:flex;
+justify-content: center;
+
+}
+
+#titulo{
+  font-family: "Lobster", sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+  color: rgba(55, 180, 253, 0.788);
+  font-size: 42px;
+ 
+  
+
+}
+
+.lineaDos{
+color: black;
+margin-top: 150px;
+
+}
+
+.lineaTres{ 
+color: rgb(0, 0, 0);
+
+}
+
+.btn-wsp{
+height: 60px;
+background-color: rgba(75, 190, 60, 0.603);
+padding:10px;
+border:solid 2px ;
+border-radius: 10px;
+box-shadow:10px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.wsp{
+position:fixed;
+bottom:20px; 
+right:20px;
+}
+
+.btn-wsp:hover{
+background-color: rgba(17, 128, 3, 0.603);
+
+}
+
+
+.imgScroll {
+  position:absolute;
+  top: 50%; 
+  left: 50%; 
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(205, 221, 255);
+  border-radius: 50%;
+}
+
+
+
+.contBtnScroll{
+position: fixed;
+bottom: 40px;
+left: 40px;
+width: 60px;
+height: 60px;
+
+
+}
+
+.btnScroll{ 
+position: relative;
+border: none;
+cursor:pointer;
+background-color: rgb(205, 221, 255);
+border-radius: 50%;
+
+}
+
+.btnScroll .imgScroll{
+position: absolute;
+transform: translate(-50%,-50%)scale(0);
+transition: .4s;
+} 
+
+.show{
+z-index: 10;
+
+
+}
+
+
+.show .btnScroll{
+animation: popup .3s ease-in-out;
+width: 60px;
+height: 60px;
+z-index: 11;
+
+
+}
+
+.show .imgScroll{
+transform: translate(-50%, -50%) scale(1);
+
+}
+
+@keyframes popup{
+
+0%{width:0px;
+height: 0px;
+}
+
+50%{
+
+width: 50px;
+height: 50px;
+}
+
+100%{
+width: 100px;
+height: 100px;
+
+}
+
+}
